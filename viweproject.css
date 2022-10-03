@@ -1,0 +1,55 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.project2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 3rem;
+}
+.bookmark {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.social, .rating, .faq  {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sshot {
+    width: 50%;
+}
+.shadow {
+    box-shadow: #00000054 0px 5px 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.ratep {
+    width: 45%;
+    height: 125px;
+}
+
+@media (max-width:750px) {
+    section {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .projects, .project2 {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .md {
+        width: 93%;
+    }
+    .about {
+        margin-bottom: 55px;
+    }
+}
